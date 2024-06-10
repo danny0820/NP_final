@@ -121,7 +121,7 @@ def handle_server_messages():
 # 初始化 pygame
 pygame.init()
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption('坦克大戰 - 線上模式')
+pygame.display.set_caption('坦克大戰 - PVP')
 
 # 從 JSON 檔案讀取地圖數據並初始化障礙物
 def load_obstacles(filename):
